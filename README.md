@@ -3,13 +3,13 @@
   <a href="https://github.com/jeevan243/Jeevan-Portfolio" target="_blank">Moovendhan R</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src=""C:\Users\Moovendhan\Pictures\Screenshots\Screenshot (444).png"" />
+  <img alt="Demo" src=""C:\Users\Moovendhan\Pictures\Screenshots\Screenshot (444).png" />
 </div>
 
 
 ## Built With
 
-My personal portfolio <a href="https://www.jeevanprasad.in.net/" target="_blank">Jeevan Prasad</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://www.jeevanprasad.in.net/" target="_blank">Moovendhan R</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
