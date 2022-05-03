@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+// import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-scroll";
 import { CgGitFork } from "react-icons/cg";
@@ -15,8 +15,7 @@ import {
 
 import { VscTools } from "react-icons/vsc";
 
-// import pdf from "../Assets/jeevan_prasad.pdf";
-// import { AiOutlineDownload } from "react-icons/ai";
+
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function NavBar() {
@@ -44,8 +43,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          <i><h1  style={{ color: "rgb(173,117,211)",fontSize: "37px",marginTop:"5px"}}>Moovendhan</h1></i>
+          {/* <img src={logo} className="img-fluid logo" alt="brand" />//Lucida Handwriting */}
+          <h1  style={{ color: "rgb(173,117,211)",fontSize: "37px",marginTop:"5px",fontFamily:"Lucida Handwriting" }}>Moovendhan</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -106,7 +105,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/jeevan243/Jeevan-Portfolio"
+                href="https://github.com/MoovendhanR/Moovendhan-portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
