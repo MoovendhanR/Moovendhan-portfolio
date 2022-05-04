@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio<br/>
-  <a href="https://github.com/jeevan243/Jeevan-Portfolio" target="_blank">Moovendhan R</a>
+  <a href="https://github.com/MoovendhanR/Moovendhan-portfolio" target="_blank">Moovendhan R</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="" />
