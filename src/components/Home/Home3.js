@@ -68,8 +68,10 @@ function Home3() {
           </ul>
         </Col>
       </Container>
-      <h3>Contact No:<p style={{color: "rgb(240, 25, 90)"}}>+917708692046</p></h3>
-      <h3>Email:<p style={{color: "rgb(240, 25, 90)"}}>moovendhanr1011@gmail.com</p></h3>
+      <h3>Contact No:<p style={{color: "white"}}>+917708692046</p></h3>
+      {/* <h3>Email:<p style={{color: "rgb(240, 25, 90)"}}>moovendhanr1011@gmail.com</p></h3> */}
+      <h3>Email:<p style={{color: "white"}}>moovendhanr1011@gmail.com</p></h3>
+
       <Container>
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
