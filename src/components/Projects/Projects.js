@@ -65,8 +65,8 @@ function Projects() {
               isAblog={true}
               title="Snapdeal"
               description="It is an e-commerce web application that allows users to buy all items in online. We were a five-person team that worked on this project for five days. The Payment page & Sorting Features is my contribution to this project. We have built a complete e-commerce flow and we used both Frendend and Backend."
-              link="https://friendly-sable-65643a.netlify.app/"
-              links="https://github.com/kirankumar3117/snapdeal-unit4"
+              link="https://github.com/kirankumar3117/snapdeal-unit4"
+              links="https://friendly-sable-65643a.netlify.app/"
               blog="https://medium.com/@debasishparhi544/the-project-on-e-commerce-web-on-masai-school-c09d60975a2"
             //  techstack="TECH-STACKS : HTML, CSS, DOM, JavaScript"
             techstack="TECH-STACKS: EJS, CSS, mongoDb, ES6 JS, Express.js, Node.js."
