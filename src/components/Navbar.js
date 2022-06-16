@@ -77,12 +77,14 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="skills"
+                to="footer"
                 onClick={() => updateExpanded(false)}
               >
-                <VscTools style={{ marginBottom: "2px" }} /> Skills
+                <VscTools style={{ marginBottom: "2px" }} /> Contacts
               </Nav.Link>
             </Nav.Item>
+
+
 
             <Nav.Item>
               <Nav.Link
@@ -96,8 +98,17 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <VscTools style={{ marginBottom: "2px" }} /> Skills
+              </Nav.Link>
+            </Nav.Item>
 
-            <Nav.Item className="fork-btn">
+            <Nav.Item className="fork-btn"  style={{ marginTop: "1rem" }}>
               <Button variant="primary" href={resumeLink} target="_blank" className="fork-btn-inner">
                 &nbsp;Resume
               </Button>
