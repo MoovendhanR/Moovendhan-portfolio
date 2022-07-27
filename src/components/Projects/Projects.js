@@ -7,6 +7,10 @@ import mariott from "../../Assets/Projects/mariott.jpg";
 import nordstrom from "../../Assets/Projects/nordstrom.jpg";
 import snapdeal from "../../Assets/Projects/snapdeal.jpg";
 import sephora from "../../Assets/Projects/sephora.jpg";
+import expedia from "../../Assets/Projects/expedia.png";
+import anthro from "../../Assets/Projects/anthro.png";
+
+
 
 
 
@@ -91,6 +95,44 @@ function Projects() {
               storage="DATABASE : Local Storage"
             />
           </Col>
+          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expedia}
+              isBlog={false}
+              isDeploy={true}
+              isAblog={true}
+              title="Expedia"
+              description="
+              Expedia.co.in is an online travel agency owned by Expedia Group, an Indian online travel shopping company based in Place. The website and mobile app can be used to book airline tickets, hotel reservations, car rentals, cruise ships, and vacation packages."
+              links="https://project-expedia-clone.vercel.app/"
+              link="https://github.com/MoovendhanR/project-expedia-clone"
+              blog="https://github.com/MoovendhanR/project-expedia-clone#readme"
+              techstack="TECH-STACKS: ReactJS,Redux,Chakra UI,NodeJS,ExpressJS,MongoDB."
+              storage="DATABASE : MongoDb Atlas"
+            />
+          </Col>
+
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={anthro}
+              isBlog={false}
+              isDeploy={true}
+              isAblog={true}
+              title="Anthropologie"
+              description="
+              Anthropologie is an American clothing retailer with approximately 200 stores across the U.S., Canada, and UK that offers an assortment of clothing, jewelry, home furniture, decoration, beauty products, and gifts. Anthropologie is part of URBN brands, which includes Urban Outfitters, Free People, BHLDN, and Terrain."
+              links="https://anthropologie-clone.vercel.app/"
+              link="https://github.com/Aniketkushwaha80/anthropologie-clone"
+              blog="https://medium.com/@moovendhanr1011/anthropologie-website-clone-construct-week-unit-5-cf6c4438e841"
+              techstack="TECH-STACKS: Reactjs, Node js, Expressjs, Heroku . "
+              storage="DATABASE : MongoDb Atlas"
+            />
+          </Col>
+
 
 
         </Row>
